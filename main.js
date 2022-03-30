@@ -36,4 +36,4 @@ Webcam.set({
     image_format : 'png',
     png_quality:90
  )};
-
+camera = document.getElementB7Id("camera")
