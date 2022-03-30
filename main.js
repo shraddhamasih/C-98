@@ -22,7 +22,7 @@ function speak()
 {
   var synth = window.speechSynthesis;
   
-  speak_data = documnet.getElementById("textbox").value;
+  speak_data = document.getElementById("textbox").value;
   
   var utterThis = new SpeechSynthesisUtterance(speak_data);
   
@@ -32,8 +32,8 @@ function speak()
 }
 Webcam.set({
   width:360,
-    height;250,
+    height:250,
     image_format : 'png',
     png_quality:90
  )};
-camera = document.getElementB7Id("camera")
+camera = document.getElementById("camera");
